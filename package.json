@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-login-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "docker": "^1.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "git": "^0.1.5",
+    "heroku": "^7.63.4",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.8"
+  }
+}
