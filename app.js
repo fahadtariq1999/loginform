@@ -30,10 +30,10 @@ var transporter = nodemailer.createTransport({
 
 // database connection for storing data
 const connection = mysql.createConnection({
-    host: 'eu-cdbr-west-03.cleardb.net',
-    user: 'bec6bab80dbe37',
-    password: 'ba0c27b1',
-    database: 'heroku_02d50b9c7c5afca'
+    host: dbConfig.HOST,
+    user: dbConfig.USER,
+    password: dbConfig.PASSWORD,
+    database: dbConfig.DB
 });
 
 // cookie parser
